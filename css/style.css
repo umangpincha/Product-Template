@@ -201,3 +201,35 @@ nav :nth-child(1) {
   display: inline-block;
   margin-left: 190px;
 }
+
+@media screen and (max-width:1229px) {
+
+  html{
+    font-size: 10px;
+    /* text-align: justify; */
+  }
+  .dots{
+    display: none;
+  }
+  .action-btns button{
+    font-size: 15px;
+  }
+  .action-btn{
+    width: 100%;
+    padding: 20px;
+  }
+
+  .right-section .action-btn{
+    width: 100%;
+    padding: 20px;
+  }
+  .right-section img{
+    width: 10%;
+  }
+}
+
+@media screen and (max-width:352px){
+  .right-section {
+    display: none;
+  }
+}
